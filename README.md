@@ -9,3 +9,5 @@
 4-**Portal Web CRUD Gráficos Python** –Link: https://github.com/sebastian2161/Python-Flask-Web_v3
 
 5-**Perfiles de usuario Portal Web Python** –Link: https://github.com/sebastian2161/Sesiones_Perfiles_Flask_Web_v2
+
+6-**Machine Learning-Algoritmos supervisados de clasificación y regresión lineal** -link: https://github.com/sebastian2161/Proyectos_Machine_Learning
