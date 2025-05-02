@@ -13,15 +13,16 @@ Este proyecto ejecuta un agente AI **completamente en local**, sin depender de O
 1. Clona el proyecto o crea una carpeta `agente_local`
 2. Crea entorno virtual:
 
-```bash
-python -m venv venv
-source venv/bin/activate    # Linux
-.\venv\Scripts\activate # Windows
+    - bash
+      - python -m venv venv
+      - source venv/bin/activate    # Linux
+      - .\venv\Scripts\activate     # Windows
 
-```Instalación de librerias
-Ejecutar el pip install -r requirement.txt
+    - Instalación de librerias
+      - Ejecutar el pip install -r requirement.txt 
 
-## 🚀 Ciclo de entrenamiento, despliegue y mejora incremental del Agente AI utilizando el modelo google/flan-t5-base y google/flan-t5-xl.
+
+## 🚀 Ciclo de entrenamiento, despliegue  y mejora incremental del Agente AI utilizando el modelo google/flan-t5-base y google/flan-t5-xl.
 
 1. Ejecutar el archivo fine_tuning_flan_t5.py, para realizar el entrenamiento de Agente AI utilizando el modelo google/flan-t5-base.
 
