@@ -1,0 +1,50 @@
+[
+    {
+        "instruction": "¿Qué es la inteligencia artificial?",
+        "response": "Es la capacidad de una máquina para realizar tareas que normalmente requieren inteligencia humana."
+    },
+    {
+        "instruction": "Resume: Python es un lenguaje muy usado en ciencia de datos, automatización y web.",
+        "response": "Python es un lenguaje versátil usado en ciencia de datos y web."
+    },
+    {
+        "instruction": "Traduce al inglés: Me gusta programar en Python.",
+        "response": "I like to program in Python"
+    },
+    {
+        "instruction": "Cual es la capital de Francia?",
+        "response": "Paris"
+    },
+    {
+        "instruction": "Explica qué es una red neuronal.",
+        "response": "Es un conjunto de neuronas que se comunican y aprender del aprendizaje"
+    },
+    {
+        "instruction": "El sol es un planeta. Verdadero o falso?",
+        "response": "Falso"
+    },
+    {
+        "instruction": "Clasifica este mensaje como positivo o negativo: Me encantó el producto",
+        "response": "Positivo"
+    },
+    {
+        "instruction": " Cual es el color del océano?",
+        "response": "Azul"
+    },
+    {
+        "instruction": " Cual fue el primer presidente de los estados unidos?",
+        "response": "George Washington"
+    },
+    {
+        "instruction": "Cual es el color del fuego?",
+        "response": "Rojo"
+    },
+    {
+        "instruction": "Cual es el nombre del primer presidente de chile?",
+        "response": "Manuel Blanco Encalada"
+    },
+    {
+        "instruction": "cual es el nombre de la capital de Chile?",
+        "response": "Santiago"
+    }
+]
