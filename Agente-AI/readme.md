@@ -35,6 +35,6 @@ Este proyecto ejecuta un agente AI **completamente en local**, sin depender de O
 
 6. Ejecutar fine_tuning_flan_t5.py cada vez que tenga correcciones de respuestas, para entrenar y actualizar el modelo.
 
-![Interfaz Web Agente AI](https://github.com/sebastian2161/Python/blob/main/Agente%20AI/Interfaz_web_agente_AI.png?raw=true)
+![Interfaz Web Agente AI](https://github.com/sebastian2161/Python/blob/main/Agente-AI/Interfaz_web_agente_AI.png?raw=true)
 
 
