@@ -28,8 +28,9 @@ Este proyecto ejecuta un agente AI **completamente en local**, sin depender de O
 
 2. Terminado el entrenamiento del modelo, sera guardado en la carpeta flan-t5-finetuned.
 
-3. El despliegue del Agente AI sera a través del gradio_t5.py, que creará un servidor web, con la interfaz web del Agente AI.
+3. El despliegue del Agente AI sera a través del gradio_t5.py, que creará un servidor web que se ejecutará en la url local: 127:0.0.1:7860
+   con la interfaz web del Agente AI. 
 
-4. Podrá realizarse un entrenamiento incremental en el modelo google/flan-t5-base, corrigiendo las respuestas y guardandolas en el correcciones.json que
+5. Podrá realizarse un entrenamiento incremental en el modelo google/flan-t5-base, corrigiendo las respuestas y guardandolas en el correcciones.json que
    será nuestro conjunto de datos de entrenamiento.
 
