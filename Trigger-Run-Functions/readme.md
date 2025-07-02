@@ -24,7 +24,7 @@ Este proyecto demuestra cómo implementar una arquitectura **asíncrona basada e
 - **Archivo** principal: `main.py`
 - **Punto de entrada**: `hello_gcs`
 - **Framework** utilizado: [Functions Framework for Python](https://cloud.google.com/functions/docs/functions-framework)
-- **Tipo de evento**: `google.storage.object.finalize` (cuando un archivo es creado o actualizado en el bucket)
+- **Tipo de evento**: `google.storage.object.finalize` (cuando un archivo es creado o actualizado en el bucket de origen)
 
 
 
