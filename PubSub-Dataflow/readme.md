@@ -30,7 +30,7 @@ Este proyecto demuestra cómo implementar una arquitectura de **procesamiento de
 
 ### 3. Servicio Cloud Storage
 
-- **Revisar**:el bucket especificado (gs://TU_BUCKET/results/) para ver los archivos generados por Dataflow con los conteos por ventana.
+- **Revisar**:El bucket especificado (gs://TU_BUCKET/results/) para ver los archivos generados por Dataflow con los conteos por ventana.
 
 
 
