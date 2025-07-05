@@ -1,6 +1,6 @@
 # 📡 Activación de Eventos con Google Cloud: Cloud Run Functions + Dataflow
 
-Este proyecto demuestra cómo implementar una arquitectura de **microservicios asincrónica basada en eventos**, utilizando servicios completamente gestionados de Google Cloud Platform (GCP):
+Este proyecto demuestra cómo implementar una arquitectura de **microservicios basado en eventos**, utilizando servicios completamente gestionados de Google Cloud Platform (GCP):
 
 - 🚀 **Cloud Run (Functions Framework)** para activar eventos mediante peticiones HTTP.
 - 🔄 **Dataflow** para el procesamiento escalable de datos mediante Apache Beam.
