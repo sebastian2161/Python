@@ -1,0 +1,2 @@
+Package name: apache-airflow-providers-google
+Version: 10.9.0   # o la última estable
