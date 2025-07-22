@@ -127,7 +127,7 @@ Al ejecutar el `git push`, se espera lo siguiente:
 - 🔍 Los resultados del pipeline estarán disponibles desde:
   - 📊 El modulo build log en **Cloud Build**.
   - 📁 Los registros en **Cloud Logging**
-  - 📝 Cualquier salida definida dentro del script (`print()`, `logging`, etc.)
+  - 📝 Salida definida dentro del `cloudbuild.yaml` (`logging`, `bucket de destino`)
 
 ---
 
