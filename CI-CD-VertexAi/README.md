@@ -103,7 +103,6 @@ Haz cambios en `pipeline.py` o cualquier otro componente del proyecto.
 
 ### 2. Realiza un commit y push
 
-```bash
 git add .
 git commit -m "Update pipeline"
 git push origin main
