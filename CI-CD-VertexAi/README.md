@@ -122,10 +122,10 @@ git push origin main
 Al ejecutar el `git push`, se espera lo siguiente:
 
 - 🚀 Se activa el **trigger de Cloud Build** configurado previamente.
-- 🧠 El archivo `pipeline.py` es ejecutado como parte del proceso de compilación en Vertex AI.
+- 🧠 El archivo `pipeline.py` es ejecutado como parte del proceso de compilación en **Cloud Build**.
 - ☁️ El pipeline consume el archivo `data.csv` directamente desde **Cloud Storage**.
 - 🔍 Los resultados del pipeline estarán disponibles desde:
-  - 📊 La consola de **Vertex AI**
+  - 📊 El modulo build log en **Cloud Build**.
   - 📁 Los registros en **Cloud Logging**
   - 📝 Cualquier salida definida dentro del script (`print()`, `logging`, etc.)
 
