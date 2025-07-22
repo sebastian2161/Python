@@ -1,0 +1,31 @@
+steps:
+  # Paso único: Instalar dependencias + Ejecutar pipeline
+  - name: 'python:3.9'
+    id: run-pipeline
+    entrypoint: bash
+    args:
+      - '-c'
+      - |
+        # Instalar dependencias
+        pip install -r requirements.txt
+        
+        # Ejecutar el pipeline
+        python pipeline.py \
+          --bucket=beam_dataflow_cl \
+          --file=origin/data.csv
+
+  # Paso 2: Subir resultados a Cloud Storage
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    id: upload-results
+    entrypoint: bash
+    args:
+      - '-c'
+      - |
+        # Crear archivo con timestamp
+        echo "Ejecución completada en $(date)" > output.txt
+        
+        # Subir a Cloud Storage
+        gsutil cp output.txt gs://${PROJECT_ID}-pipeline-output/output-${BUILD_ID}.txt
+
+options:
+  logging: CLOUD_LOGGING_ONLY
