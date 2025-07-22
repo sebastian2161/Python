@@ -30,8 +30,11 @@ La solución sigue la siguiente arquitectura:
 
 📦 vertex-ai-cicd
 ├── pipeline.py # Código del pipeline predictivo
+
 ├── requirements.txt # Dependencias Python necesarias
+
 ├── data.csv # Archivo de entrada almacenado en GCS
+
 └── cloudbuild.yaml # Script de construcción para Cloud Build
 
 
@@ -104,7 +107,9 @@ Haz cambios en `pipeline.py` o cualquier otro componente del proyecto.
 ### 2. Realiza un commit y push
 
 git add .
+
 git commit -m "Update pipeline"
+
 git push origin main
 
 
