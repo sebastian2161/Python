@@ -29,13 +29,14 @@ La solución sigue la siguiente arquitectura:
 ## 📁 Estructura del Repositorio
 
 📦 vertex-ai-cicd
-├── pipeline.py # Código del pipeline predictivo
 
-├── requirements.txt # Dependencias Python necesarias
+── pipeline.py # Código del pipeline predictivo
 
-├── data.csv # Archivo de entrada almacenado en GCS
+── requirements.txt # Dependencias Python necesarias
 
-└── cloudbuild.yaml # Script de construcción para Cloud Build
+── data.csv # Archivo de entrada almacenado en GCS
+
+── cloudbuild.yaml # Script de construcción para Cloud Build
 
 
 
