@@ -7,7 +7,7 @@ utilizando servicios nativos de **Google Cloud Platform** como **Cloud Storage**
 
 ## 🚀 Arquitectura General
 
-La solución sigue la siguiente arquitectura:
+La solución tiene la siguiente arquitectura:
 
 1. El desarrollo del pipeline se realiza localmente o desde Vertex AI Workbench.
 2. Al realizar un `git push` a una rama específica del repositorio en GitHub, se activa un **Trigger de Cloud Build**.
