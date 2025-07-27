@@ -35,18 +35,21 @@ Asegúrate de cumplir con los siguientes pasos antes de ejecutar la App Flask:
 
 - [x] **Compute Engine**
 - [x] **Permiso Firewall habilidado con el puerto 8080**
+
                         gcloud compute firewall-rules create allow-flask-8080 \
                                     --allow tcp:8080 \
                                     --source-ranges=0.0.0.0/0 \
                                     --target-tags=http-server \
                                     --description="Permitir tráfico al puerto 8080 para Flask"
 
-- [x] ** Tags agregado a la maquina virtual, en este caso flask-vm**
+- [x] **Tags agregado a la maquina virtual, en este caso flask-vm**
+
                         gcloud compute instances add-tags flask-vm \
                                     --tags=http-server \
                                     --zone=us-central1-c
           
- - [x] ** Revisar los tags asignados a la maquina virtual flask-vm**
+ - [x] **Revisar los tags asignados a la maquina virtual flask-vm**
+
                         gcloud compute instances describe flask-vm --zone=us-central1-c --format="get(tags.items)"
 
 
