@@ -40,7 +40,7 @@ if __name__ == '__main__':
 
 ### 🔌 Servicios habilitados en GCP
 
--
+- Compute Engine.
 
 ---
 
