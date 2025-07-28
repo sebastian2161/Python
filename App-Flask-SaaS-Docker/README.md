@@ -125,7 +125,7 @@ Este proyecto demuestra cómo desplegar una **aplicación web Django/FastApi/Fla
 
 ## 📚 Recursos Adicionales
 
-- [Django Oficial](https://docs.djangoproject.com/es/5.2/
+- [Django Oficial](https://docs.djangoproject.com/es/5.2/)
 - [FastAPI Ofical](https://fastapi.tiangolo.com/)
 - [Flask Oficial](https://flask.palletsprojects.com/)
 - [GCP CLI - gcloud](https://cloud.google.com/sdk/gcloud)
