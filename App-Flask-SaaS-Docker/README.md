@@ -146,7 +146,7 @@ EXPOSE 8080
 # Comando de inicio para uvicorn (servidor FastAPI)
 CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8080"]
 ```
-5. Compilar imagen Docker:
+5. Compilar imagen Docker con Cloud Build:
 ```bash
 gcloud builds submit --tag gcr.io/PROYECTO_ID/fastapi-cloudrun
 ```
@@ -211,7 +211,7 @@ ENV PORT=8080
 # Comando para ejecutar la app
 CMD ["python", "app.py"]
 ```
-5. Compilar imagen Docker:
+5. Compilar imagen Docker con Cloud Build:
 ```bash
 gcloud builds submit --tag gcr.io/PROYECTO_ID/flask-cloudrun
 ```
