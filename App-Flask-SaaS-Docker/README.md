@@ -1,7 +1,6 @@
 # 📱 Despliegue de Aplicación Django/FastApi/Flask como SaaS en Google Cloud Platform (GCP)
 
-Este proyecto demuestra cómo desplegar una **aplicación web Django/FastApi/Flask** bajo el modelo **SaaS (Software como Servicio)** utilizando **Cloud Run**,  
-**Cloud Build** y **Artifact Registry** en GCP.
+Este proyecto demuestra cómo desplegar una **aplicación web Django/FastApi/Flask** bajo el modelo **SaaS (Software como Servicio)** utilizando **Cloud Run**, **Cloud Build** y **Artifact Registry** en GCP.
 
 ---
 
