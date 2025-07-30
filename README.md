@@ -21,7 +21,7 @@
 
 11-**Desarrollo de servicios en tiempo real con docker**. Link: https://github.com/sebastian2161/realtime_apache_kafka_docker
 
-12-**Desarrollo de servicios API Endpoint** Link: https://github.com/sebastian2161/python_servicios_api_globant/tree/main
+12-**Despliegue de Servicios API REST** Link: https://github.com/sebastian2161/python_servicios_api_globant/tree/main
 
 13-**Portal Web CRUD Python** Link: https://github.com/sebastian2161/Python-Flask-Web_v1
 
