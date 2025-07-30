@@ -120,5 +120,5 @@ gcloud dataproc jobs submit pyspark Dataproc-pyspark.py \
 
 ## 📢 Contacto
 
-Autor: [Sebastian Collao]
+Autor: **Sebastian Collao**
 Repositorio: [https://github.com/sebastian2161/Python]
